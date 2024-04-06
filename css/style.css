@@ -1,0 +1,95 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.contact div {
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    zoom: 1;
+    transition: transform 2s ease;
+}
+
+.contact > div:hover {
+    transform: scale(1.1);
+}
+
+.contact a {
+    margin-left: 0.5rem;
+    text-decoration: none;
+    text-align: right;
+}
+
+h1 {
+    line-height: 5px;
+}
+
+h4 {
+    font-weight: 400;
+    line-height: 5px;
+    margin-top: 1rem;
+}
+
+.title {
+    color: #0b65c2;
+    font-weight: 500;
+    border-bottom: 1px solid #0b65c2;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.company {
+    display: inline-block;
+    font-weight: 500;
+}
+
+.designation {
+    display: inline-block;
+}
+
+.aggregate {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 2rem;
+}
+
+.date {
+    color: gray;
+    float: right;
+}
+
+.description {
+    display: block;
+    margin-top: 1rem;
+}
+
+.skill {
+    background-color: rgba(0, 0, 0, 0.15);
+    display: inline;
+    padding: 0.5rem 0.8rem;
+    border-radius: 50vw;
+    margin: 0.3rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.skill:first-child {
+    margin-left: 0rem;
+}
+
+a {
+    color: #0b65c2 !important;
+    text-decoration: none;
+}
